@@ -11,3 +11,4 @@ jobs:
       #  - uses: ./.github/actions/composer    
        - run:  chmod +x ./.github/actions/composer/entrypoint.sh
        - run: ./.github/actions/composer/entrypoint.sh
+       - run: ./.github/actions/config-laravel/entrypoint.sh
