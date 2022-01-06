@@ -7,6 +7,7 @@ jobs:
     name: Laravel Build
     runs-on: ubuntu-18.04    
     steps:
-      - uses: actions/checkout@v1
-        with:
-          repository: './.github/actions/composer'
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Composer
+        uses: ./.github/actions/composer     
