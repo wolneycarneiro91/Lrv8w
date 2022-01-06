@@ -3,10 +3,7 @@ on: push
 jobs:
   build:
     name: Laravel Build
-    runs-on: ubuntu-18.04
-    runs:
-      using: "composite"
-      steps:
-        steps:
-          - uses: actions/checkout@v1
-          - uses: ./.github/actions/composer
+    runs-on: ubuntu-18.04    
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./.github/actions/composer
