@@ -12,4 +12,4 @@ jobs:
        - run:  chmod +x ./.github/actions/composer/entrypoint.sh
        - run: ./.github/actions/composer/entrypoint.sh
        - run:  chmod +x ./.github/actions/config-laravel/entrypoint.sh
-       - run: ./.github/actions/config-laravel/entrypoint.sh
+       - run: ./.github/actions/config-laravel/entrypoint.sh       
