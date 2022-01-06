@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-18.04    
     steps:
       - name: Action checkout git
-      - uses: actions/checkout@v1
+        uses: actions/checkout@v1
       - name: Installing composer
-      - uses: ./.github/actions/composer
+        uses: ./.github/actions/composer
