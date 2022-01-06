@@ -3,6 +3,6 @@ on: push
 jobs:
   build:
     name: Laravel Build
-    runs-on: ubunt-18.04
+    runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1
