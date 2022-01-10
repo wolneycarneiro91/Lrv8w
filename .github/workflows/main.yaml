@@ -5,7 +5,8 @@ on: push
 jobs:
   build:
     name: Laravel Build
-    runs-on: ubuntu-18.04    
+    #runs-on: ubuntu-18.04    
+    runs-on: self-hosted        
     steps:      
        - uses: actions/checkout@v1      
       #  - uses: ./.github/actions/composer    
