@@ -1,4 +1,3 @@
 #!/bin/sh
 
-# composer install
-composer update
+echo "Teste"
